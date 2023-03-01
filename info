@@ -1,0 +1,233 @@
+{
+  "uuid": "4df25aada319f9f26a963b1a85a63b32",
+  "path": "Offline/cRamageddon",
+  "name": "cRamageddon",
+  "content": "",
+  "created_at": "2023-01-30 11:54:39",
+  "updated_at": "2023-03-01 15:12:12",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "679e0ebe0e1dbdaf31fd1061d209ecd6",
+      "title": "cRamageddon_Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f11ed129c93440e69a050df77553371a": 1,
+        "5692a352e7724b55b7e1164cf4ed3da9": 1,
+        "42a4ab0f772c45d88f7e569ae76735ff": 14,
+        "31fc25f1529e9ea2a5abd495b0c79ef1": 2,
+        "506025053feb4130993e46557826a212": 2,
+        "b22fab11b6984db586b8655f1ae5897c": 1,
+        "3915e2a897864c789632a8e6c82d0bf3": 2,
+        "fff3ee1e602c4a7d9242a5c89a0464ef": 1,
+        "8faf85626062452bb09e0ae313e25f19": 3
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Header 2x6 2.54 Male",
+          1,
+          "HEADER 2X6 2.54 MALE",
+          "AUX_VOUT",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "2X5/2.54",
+            "puuid": "9a41c4aa06c247cb8c5340f8682a1a43",
+            "uuid": "b22fab11b6984db586b8655f1ae5897c"
+          }
+        ],
+        [
+          "CS-1200-34",
+          1,
+          "CONN-TH_34P-P2.54_CST_CS-1200-34",
+          "CN1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2886707",
+            "BOM_Manufacturer": "CST(永丰盈)",
+            "BOM_Manufacturer Part": "CS-1200-34",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "1bea5c8c56b54375a3894301a2c5f5f5",
+            "uuid": "5692a352e7724b55b7e1164cf4ed3da9"
+          }
+        ],
+        [
+          "SH2-34G-PT",
+          1,
+          "SBH11-PBPC-D17-ST-BK",
+          "CONN-BTTM",
+          {
+            "BOM_Manufacturer": "On Shore Technology Inc.",
+            "BOM_Manufacturer Part": "SH2-34G-PT",
+            "BOM_Supplier": "Digi-Key",
+            "BOM_Supplier Part": "SH2-34G-PT",
+            "puuid": "eacdbb0a4f1140e499fbd52145d3c38a",
+            "uuid": "f11ed129c93440e69a050df77553371a"
+          }
+        ],
+        [
+          "1726480104",
+          14,
+          "MOLEX_1726480104",
+          "DIO0/PWM0,DIO1/PWM1,DIO2/PWM2,DIO3/PWM3,DIO4/SPICS,DIO5/SPICLK,DIO6/SPIMISO,DIO7/SPIMOSI,DIO8/PWM4,DIO9/PWM5,DIO10/PWM6,DIO11/PWM7,DIO12/PWM8,DIO13/PWM9",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "5cbf179e328a49dc9271e1c27b5562e1",
+            "uuid": "42a4ab0f772c45d88f7e569ae76735ff"
+          }
+        ],
+        [
+          "JUMPER3",
+          3,
+          "HDR-TH_3P-P2.54-V-M-A",
+          "DIO13_JUMPER,I2C_JUMPER,UART_JUMPER",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2940050",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "Jumper3",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f977cb041bb74843bf51fa57b71be923",
+            "uuid": "8faf85626062452bb09e0ae313e25f19"
+          }
+        ],
+        [
+          "I2C",
+          1,
+          "I2C",
+          "I2C",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "Módulo para LCD",
+            "puuid": "6f050e2f47b7465388ccca63d9239b5f",
+            "uuid": "3915e2a897864c789632a8e6c82d0bf3"
+          }
+        ],
+        [
+          "HL-503S45FC",
+          2,
+          "LED-TH_BD5.0-P2.54-FD",
+          "LED3.3V,LED5V",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C568942",
+            "BOM_Manufacturer": "HONGLITRONIC(鸿利光电)",
+            "BOM_Manufacturer Part": "HL-503S45FC",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "06b5cd08f3384a54acbf965c7106184b",
+            "uuid": "506025053feb4130993e46557826a212"
+          }
+        ],
+        [
+          "JUMPER2",
+          1,
+          "HDR-TH_2P-P2.54-V-M-1",
+          "P4_GND_J",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2940092",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "Jumper2",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "7ae61b24ec5d431087f34ea7cfebbd9e",
+            "uuid": "fff3ee1e602c4a7d9242a5c89a0464ef"
+          }
+        ],
+        [
+          "100Ω",
+          1,
+          "RES-TH_BD2.5-L6.5-P10.50-D0.6",
+          "R1-3.3V",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UNI-ROYAL(厚声)",
+            "BOM_Manufacturer Part": "MFR0W4F1800A50",
+            "BOM_Supplier Part": "C58665",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f6ffa34674dd47c09fdfebb09b99661e",
+            "uuid": "31fc25f1529e9ea2a5abd495b0c79ef1"
+          }
+        ],
+        [
+          "200Ω",
+          1,
+          "RES-TH_BD2.5-L6.5-P10.50-D0.6",
+          "R2-5V",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UNI-ROYAL(厚声)",
+            "BOM_Manufacturer Part": "MFR0W4F1800A50",
+            "BOM_Supplier Part": "C58665",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f6ffa34674dd47c09fdfebb09b99661e",
+            "uuid": "31fc25f1529e9ea2a5abd495b0c79ef1"
+          }
+        ],
+        [
+          "UART",
+          1,
+          "I2C",
+          "UART",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "Módulo para LCD",
+            "puuid": "6f050e2f47b7465388ccca63d9239b5f",
+            "uuid": "3915e2a897864c789632a8e6c82d0bf3"
+          }
+        ]
+      ],
+      "updateTime": 1677701532,
+      "createTime": 1675097679,
+      "histories": [],
+      "created_at": "2023-01-30 11:54:39",
+      "updated_at": "2023-03-01 15:12:12"
+    },
+    {
+      "uuid": "9fbb8796e9e42ddf0fcf599ed4887156",
+      "puuid": "4df25aada319f9f26a963b1a85a63b32",
+      "title": "PCB_cRamageddon_v1.0",
+      "filename": "PCB_cRamageddon_v1.0.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f977cb041bb74843bf51fa57b71be923": 3,
+        "7ae61b24ec5d431087f34ea7cfebbd9e": 1,
+        "5cbf179e328a49dc9271e1c27b5562e1": 14,
+        "06b5cd08f3384a54acbf965c7106184b": 2,
+        "9a41c4aa06c247cb8c5340f8682a1a43": 1,
+        "6f050e2f47b7465388ccca63d9239b5f": 2,
+        "1bea5c8c56b54375a3894301a2c5f5f5": 1,
+        "eacdbb0a4f1140e499fbd52145d3c38a": 1,
+        "f6ffa34674dd47c09fdfebb09b99661e": 2
+      },
+      "BOM": [],
+      "updateTime": 1675310472,
+      "createTime": 1675301183,
+      "histories": [],
+      "created_at": "2023-02-01 20:26:23",
+      "updated_at": "2023-02-01 23:01:12"
+    }
+  ],
+  "sort": [],
+  "title": "cRamageddon",
+  "foldername": "cRamageddon",
+  "schfilename": "cRamageddon.json",
+  "schfilemtime": 1677701532474
+}
